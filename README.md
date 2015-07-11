@@ -12,6 +12,7 @@ The data is provided by Liberty Mutual Insurance, for the Kaggle Competition
  
 The metric for evaualtion is the normalized Gini Coefficient
  
-@author(Sethi,Anurag)
+@author
+@Sethi Anurag
   
 There are two plots and R code file in this directory.
