@@ -160,20 +160,3 @@ submission.ensemble$Hazard <- (rfnew_pred+predict_xgboost)/2
 write_csv(submission, "submission_ensemble.csv")
 
 ############Our final submission gives the normalized gini score as 0.377861 which is our best score yet.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
