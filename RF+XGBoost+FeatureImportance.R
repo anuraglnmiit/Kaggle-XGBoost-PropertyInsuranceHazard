@@ -137,8 +137,8 @@ mtest = predict(dummies, newdata = mtest)
 
 
 # Fit the model
-xgb.fit = xgboost(param=param, data = mtrain, label = y, nrounds=1900, eta = .01, max_depth = 9, 
-                  min_child_weight = 3, scale_pos_weight = 1.0, subsample=0.8) 
+xgb.fit = xgboost(param=param, data = mtrain, label = y, nrounds=1900, max_depth = 9, 
+                  min_child_weight = 3) 
 predict_xgboost <- predict(xgb.fit, mtest)
 
 # Predict Hazard for the test set
